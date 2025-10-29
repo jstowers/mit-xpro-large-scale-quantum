@@ -1,26 +1,22 @@
-# MIT xPRO:  Quantum Computing Realities
+# MIT xPRO:  Requirements for Large-Scale Universal Quantum Computation 
 
-MIT xPRO QCRx2
+MIT xPRO QCRx2 | _Quantum Computing Realities_
 
-Fall 2025
+Fall 2025 |  October 27 - November 24, 2025
 
-October 27 - November 24, 2025
-
-## Requirements for Large-Scale Universal Quantum Computation
+## Overview
 
 This is the final course in MIT xPRO's _Quantum Computing Realities_ professional certificate program.
 
-### Faculty Directors
+https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+QCRx2+R13/home
+
+## Faculty Directors
 
 Prof. William Oliver, MIT
 
 Prof. Isaac Chuang, MIT
 
-### Course Link
-
-https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+QCRx2+R13/home
-
-### Course Schedule
+## Course Schedule
 
 __Week 1: Existing Strategies to Mitigate and Correct Quantum Errors__
 
