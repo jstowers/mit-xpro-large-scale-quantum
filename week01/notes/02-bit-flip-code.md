@@ -81,3 +81,15 @@ Parity-check operations can detect errors without projecting and destroying the 
 The parity bit, ${b_p}$, is the _exclusive-OR (XOR)_ of two data bits:
 
   $ b_p = b_1 \oplus b_2 $
+
+### Parity Generalizations
+
+With a large number of bits:
+
+  - total number of bits is odd => parity is 1.  
+
+  - total number of bits is even => parity is 0.
+
+The _weight_ of the parity check corresponds to the _number_ of bits.
+
+In the above example, the _weight_ for two bits is _2_.  
