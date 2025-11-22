@@ -62,7 +62,7 @@ Today, we know that a quantum error is a linear combination of $I$ and $Z$:
 
  $e^{i \theta Z} = \cos{\theta}I + i\sin{\theta}Z$ 
 
-If a code can correct $i$ and $Z$, it can also correct, for all values of $Z$, all linear combinations of $i$ and $Z$.
+If a code can correct $I$ and $Z$, it can also correct, for all values of $Z$, all linear combinations of $I$ and $Z$.
 
 #### Key Point
 
@@ -73,4 +73,31 @@ It is a remarkable and crucial feature of _quantum_ error correction that the sp
 QEC protocols typcially use __syndrome measurements__ to detect _if_ and _where_ an error occurred.
 
 Detected errors are corrected using a __feed-forward__ approach: pulses are applied to errant qubits to correct the error.
+
+Because these protocols actively look for and correct errors, it is called __active error correction__.
+
+Active error correction is resource intensive:
+
+- ancilla bits
+
+- quantum operations
+
+- measurements
+
+## Passive Error Correction
+
+Goal: reduce physical qubit error rates
+
+How: specific __pulse sequences__ designed to:
+
+1. mitigate systematic qubit errors - under/over-rotation of a Bloch vector due to systematic miscalibration
+
+2. dynamically "undo" coherent errors - coherent dephasing errors
+
+### Purpose
+
+Counteract _typical_ or _likely_ errors.
+
+"Passive" - preventative measures to counteract certain systematic or stochastic noise that we know is _likely_ to exist in the system.  It is not "active" because we do not identify and correct specific errors.
+
 
