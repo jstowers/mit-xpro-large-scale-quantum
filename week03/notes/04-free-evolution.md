@@ -12,8 +12,6 @@ Prof. William Oliver, MIT
 
 [Quantum computing with superconducting qubits](https://pennylane.ai/qml/demos/tutorial_sc_qubits) by Alvaro Ballon
 
-
-
 ## Introduction
 
 When a qubit is placed into a 50/50 superposition, the state is:
